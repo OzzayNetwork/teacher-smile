@@ -7,7 +7,9 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Classix - Classified Ads and Listing Template</title>
+<title>TeacherSmiles | Welcome to the best Online School</title>
+
+<link rel="stylesheet" type="text/css" href="assets/css/flat-icons/flaticon.css">
 
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -48,13 +50,13 @@ Home
 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="category.html">
-Categories
+<a class="nav-link" href="about.html">
+About
 </a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Listings <i class="lni-chevron-down"></i>
+Services <i class="lni-chevron-down"></i>
 </a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="adlistinggrid.html">Ad Grid</a></li>
@@ -62,7 +64,7 @@ Listings <i class="lni-chevron-down"></i>
 <li><a class="dropdown-item" href="ads-details.html">Listing Detail</a></li>
 </ul>
 </li>
-<li class="nav-item dropdown">
+<li class="nav-item dropdown d-none">
 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Pages <i class="lni-chevron-down"></i>
 </a>
@@ -77,7 +79,7 @@ Pages <i class="lni-chevron-down"></i>
 <li><a class="dropdown-item" href="404.html">404</a></li>
 </ul>
 </li>
-<li class="nav-item dropdown">
+<li class="nav-item dropdown d-none">
  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 Blog <i class="lni-chevron-down"></i>
 </a>
@@ -120,18 +122,17 @@ Contact
 <div class="search-inner">
 <form class="search-form">
 <div class="form-group">
-<input type="text" name="customword" class="form-control" placeholder="What are you looking for?">
+<input type="text" name="customword" class="form-control" placeholder="Paper's name?">
 </div>
 <div class="form-group inputwithicon">
 <div class="select">
 <select>
-<option value="none">Locations</option>
-<option value="none">New York</option>
-<option value="none">California</option>
-<option value="none">Washington</option>
-<option value="none">Birmingham</option>
-<option value="none">Chicago</option>
-<option value="none">Phoenix</option>
+<option value="none">-- Select level --</option>
+<option value="none">Primary</option>
+<option value="none">Secondary</option>
+<option value="none">IGCSE</option>
+<option value="none">Pre Primary</option>
+
 </select>
 </div>
 <i class="lni-target"></i>
@@ -139,7 +140,7 @@ Contact
 <div class="form-group inputwithicon">
 <div class="select">
 <select>
-<option value="none">Select Catagory</option>
+<option value="none">-- Select subject --</option>
 <option value="none">Jobs</option>
 <option value="none">Electronics</option>
 <option value="none">Mobile</option>
@@ -165,172 +166,674 @@ Contact
 
 </header>
 
+<!-- modals -->
+ <!-- Modal -->
+ <!-- form four modal -->
+ <div class="modal fade" id="form4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Form 4 Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Form 4 resources.</p>
+
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- form three modal -->
+
+<div class="modal fade" id="form3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Form 3 Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available form 3 resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- form two -->
+<div class="modal fade" id="form2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Form 2 Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Form 2 resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- form 1 -->
+<div class="modal fade" id="form1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Form 1 Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Form 1 resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- class 8 -->
+<div class="modal fade" id="class8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Class 8 (8-4-4) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Class 8 (8-4-4) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- class 7 -->
+<div class="modal fade" id="class7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Class 7 (8-4-4) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Class 7 (8-4-4) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- class 6 -->
+<div class="modal fade" id="class7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Class 6 (8-4-4) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Class 6 (8-4-4) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- class 5 -->
+<div class="modal fade" id="class5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Class 5 (8-4-4) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Class 5 (8-4-4) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Grade 4 -->
+<div class="modal fade" id="class4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Grade 4 (CBC) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Grade 4 (CBC) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Grade 3 -->
+<div class="modal fade" id="class3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Grade 3 (CBC) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Grade 3 (CBC) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- grade two -->
+<div class="modal fade" id="class2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Grade 2 (CBC) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Grade 2 (CBC) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- grade one -->
+
+<div class="modal fade" id="class1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Grade 1 (CBC) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Grade 1 (CBC) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- pp2 -->
+<div class="modal fade" id="pp2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">PP 2 (CBC) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available PP 2 (CBC) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- PP1 -->
+<div class="modal fade" id="pp1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">PP 2 (CBC) Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available PP 1 (CBC) resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- cambridge -->
+<div class="modal fade" id="cambridge" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Cambridge Resources</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body class-subjects">
+            <p>Bellow are some of the available Cambridge resources.</p>
+            <ol>
+                <li><a>1. Biology PP1</a></li>
+                <li><a>2. Biology PP1</a></li>
+                <li><a>3. Biology PP1</a></li>
+                <li><a>4. Biology PP1</a></li>
+                <li><a>5. Biology PP1</a></li>
+                <li><a>6. Biology PP1</a></li>
+            </ol>
+        
+        </div>
+        <div class="modal-footer">
+       
+        <button class="btn btn=bg-white" data-dismiss="modal" aria-label="Close" >Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- modals -->
+
+<!-- modals -->
+
 
 <section id="categories" class="section-padding">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
 <div class="heading">
-<h1 class="section-title">Products Categories</h1>
+<h1 class="section-title">Our Subjects</h1>
 <h4 class="sub-title">Find the best places</h4>
 </div>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#form4">
 <div class="category-icon-item lis-bg1">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-car"></i>
 </div>
-<h4>Vehicle</h4>
-<p class="categories-listing">11 Listing</p>
+<h4>Form 4 (8-4-4)</h4>
+<p class="categories-listing">11 Resources</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#form3">
 <div class="category-icon-item lis-bg2">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-display"></i>
 </div>
-<h4>Electronics</h4>
-<p class="categories-listing">12 Listing</p>
+<h4>Form 3 (8-4-4)</h4>
+<p class="categories-listing">12 Resources</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#form2">
 <div class="category-icon-item lis-bg3">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-mobile"></i>
 </div>
-<h4>Mobiles</h4>
-<p class="categories-listing">13 Listing</p>
+<h4>Form 2 (8-4-4)</h4>
+<p class="categories-listing">13 Resources</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#form1">
 <div class="category-icon-item lis-bg4">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-leaf"></i>
 </div>
-<h4>Furnitures</h4>
-<p class="categories-listing">14 Listing</p>
+<h4>Form 1 (8-4-4)</h4>
+<p class="categories-listing">14 Resources</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class8">
 <div class="category-icon-item lis-bg5">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-briefcase"></i>
 </div>
-<h4>Jobs</h4>
+<h4>Class 8 (8-4-4)</h4>
 <p class="categories-listing">15 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class7">
 <div class="category-icon-item lis-bg6">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-home"></i>
 </div>
-<h4>Real Estate</h4>
+<h4>Class 7 (8-4-4)</h4>
 <p class="categories-listing">16 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class6">
 <div class="category-icon-item lis-bg7">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-graduation"></i>
 </div>
-<h4>Education</h4>
+<h4>Class 6 (8-4-4)</h4>
 <p class="categories-listing">17 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class5">
 <div class="category-icon-item lis-bg8">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-laptop"></i>
 </div>
-<h4>Laptop</h4>
+<h4>Class 5 (8-4-4)</h4>
 <p class="categories-listing">18 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class4">
 <div class="category-icon-item lis-bg9">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-car"></i>
 </div>
-<h4>Automobiles</h4>
+<h4>Grade 4 (CBC)</h4>
 <p class="categories-listing">18 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class3">
 <div class="category-icon-item lis-bg10">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-camera"></i>
 </div>
-<h4>Cameras</h4>
+<h4>Grade 3 (CBC)</h4>
 <p class="categories-listing">18 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class2">
 <div class="category-icon-item lis-bg11">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-heart"></i>
 </div>
-<h4>Matrimony</h4>
+<h4>Grade 2 (CBC)</h4>
 <p class="categories-listing">18 Listing</p>
 </div>
 </div>
 </a>
 </div>
-<div class="col-lg-2 col-md-3 col-xs-12">
-<a href="category.html">
-<div class="category-icon-item lis-bg12">
+<div class="col-lg-3 col-md-3 col-xs-12">
+<a href="#" data-toggle="modal" data-target="#class1">
+<div class="category-icon-item lis-bg1">
 <div class="icon-box">
 <div class="icon">
 <i class="lni-leaf"></i>
 </div>
-<h4>Services</h4>
+<h4>Grade 1 (CBC)</h4>
 <p class="categories-listing">18 Listing</p>
 </div>
 </div>
 </a>
 </div>
+
+
+    <div class="col-lg-3 col-md-3 col-xs-12">
+        <a  href="#" data-toggle="modal" data-target="#pp2">
+        <div class="category-icon-item lis-bg3">
+        <div class="icon-box">
+        <div class="icon">
+        <i class="lni-leaf"></i>
+        </div>
+        <h4>PP2 (CBC Pre-Primary)</h4>
+        <p class="categories-listing">18 Listing</p>
+        </div>
+        </div>
+        </a>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-xs-12">
+            <a  href="#" data-toggle="modal" data-target="#pp1">
+            <div class="category-icon-item lis-bg4">
+            <div class="icon-box">
+            <div class="icon">
+            <i class="lni-leaf"></i>
+            </div>
+            <h4>PP1 (CBC Pre-Primary)</h4>
+            <p class="categories-listing">18 Listing</p>
+            </div>
+            </div>
+            </a>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-xs-12">
+                <a  href="#" data-toggle="modal" data-target="#cambridge">
+                <div class="category-icon-item lis-bg5">
+                <div class="icon-box">
+                <div class="icon">
+                <i class="lni-leaf"></i>
+                </div>
+                <h4>Cambridge International</h4>
+                <p class="categories-listing">18 Listing</p>
+                </div>
+                </div>
+                </a>
+                </div>
+
 </div>
 </div>
 </section>
@@ -1032,88 +1535,62 @@ $1000
 <section class="testimonial section-padding">
 <div class="container">
 <div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-<div id="testimonials" class="owl-carousel">
-<div class="item">
-<div class="img-thumb">
-<img src="assets/img/testimonial/img1.png" alt="">
-</div>
-<div class="testimonial-item">
-<div class="content">
-<p class="description">Eiusmod tempor incidiunt labore velit dolore magna aliqu sed eniminim veniam quis nostrud exercition eullamco laborisaa, Eiusmod tempor incidiunt labore velit dolore magna.</p>
-<div class="info-text">
-<h2><a href="#">Josh Rossi</a></h2>
-<h4><a href="#">CEO of Fiverr</a></h4>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="item">
-<div class="img-thumb">
-<img src="assets/img/testimonial/img2.png" alt="">
-</div>
-<div class="testimonial-item">
-<div class="content">
-<p class="description">Eiusmod tempor incidiunt labore velit dolore magna aliqu sed eniminim veniam quis nostrud exercition eullamco laborisaa, Eiusmod tempor incidiunt labore velit dolore magna.</p>
-<div class="info-text">
-<h2><a href="#">Jessica</a></h2>
-<h4><a href="#">CEO of Dropbox</a></h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="item">
-<div class="img-thumb">
-<img src="assets/img/testimonial/img3.png" alt="">
-</div>
-<div class="testimonial-item">
-<div class="content">
-<p class="description">Eiusmod tempor incidiunt labore velit dolore magna aliqu sed eniminim veniam quis nostrud exercition eullamco laborisaa, Eiusmod tempor incidiunt labore velit dolore magna.</p>
-<div class="info-text">
-<h2><a href="#">Johnny Zeigler</a></h2>
-<h4><a href="#">CEO of Fiverr</a></h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="item">
-<div class="img-thumb">
-<img src="assets/img/testimonial/img4.png" alt="">
-</div>
-<div class="testimonial-item">
-<div class="content">
-<p class="description">Eiusmod tempor incidiunt labore velit dolore magna aliqu sed eniminim veniam quis nostrud exercition eullamco laborisaa, Eiusmod tempor incidiunt labore velit dolore magna.</p>
-<div class="info-text">
-<h2><a href="#">Josh Rossi</a></h2>
-<h4><a href="#">CEO of Fiverr</a></h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="item">
-<div class="img-thumb">
-<img src="assets/img/testimonial/img5.png" alt="">
-</div>
-<div class="testimonial-item">
-<div class="content">
-<p class="description">Eiusmod tempor incidiunt labore velit dolore magna aliqu sed eniminim veniam quis nostrud exercition eullamco laborisaa, Eiusmod tempor incidiunt labore velit dolore magna.</p>
-<div class="info-text">
-<h2><a href="#">Priyanka</a></h2>
-<h4><a href="#">CEO of Dropbox</a></h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="testimonials" class="owl-carousel">
+        <div class="item">
+        <div class="img-thumb">
+        <img src="assets/img/testimonial/img1.png" alt="">
+        </div>
+        <div class="testimonial-item">
+        <div class="content">
+        <p class="description">Teacher Smiles has been a great resource for me in my line of work. It has a professional demeanor and an infectious aura of a Smile.</p>
+        <br>
+        <br>
+        <div class="info-text">
+        <h2><a href="#">Steve</a></h2>
+        <h4><a href="#">Education consultant</a></h4>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="item">
+        <div class="item">
+        <div class="img-thumb">
+        <img src="assets/img/testimonial/img2.png" alt="">
+        </div>
+        <div class="testimonial-item">
+        <div class="content">
+        <p class="description">I was diagonized with multiple sclerosis in form one. After falling ill and being out of school for long periods a teacher advised me to use Teacher Smiles. I passed my examinations and now I am a second year student at the university.</p>
+        
+        <div class="info-text">
+        <h2><a href="#">Max</a></h2>
+        <h4><a href="#">University Student/a></h4>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="item">
+        <div class="item">
+        <div class="img-thumb">
+        <img src="assets/img/testimonial/img4.png" alt="">
+        </div>
+        <div class="testimonial-item">
+        <div class="content">
+        <p class="description">I have been teacher and a KNEC examiner for the last 15 years. I had a lot of content and examination tips that I wanted to share and I am glad that I can now upload it on Teacher Smiles, impact a generation and also have an extra income stream.</p>
+        
+        <div class="info-text">
+        <h2><a href="#">Moseti</a></h2>
+        <h4><a href="#">Tutor</a></h4>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        </div>
+        </div>
 </div>
 </div>
 </section>
@@ -1125,82 +1602,47 @@ $1000
 <div class="row">
 <div class="col-12 text-center">
 <div class="heading">
-<h1 class="section-title">Blog Post</h1>
-<h4 class="sub-title">Discover & connect with top-rated local businesses</h4>
+<h1 class="section-title">Our Working Process</h1>
+<h4 class="sub-title font-14px">TearcherSmiles is the go-to place for students to find the resources, knowledge, and inspiration they need to learn at their best.</h4>
 </div>
 </div>
-<div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+<div class="col-xs-12 col-md-6 col-lg-4">
+    <div class="single-cta">
+    <div class="cta-icon">
+    <i class="flaticon-books"></i>
+    </div>
+    <div class="content">
+    <h4>Resources</h4>
+    <p>We offer more than 3 million free and paid resources, created by us who understand what works in the classroom.</p>
+    <br>
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-4">
+    <div class="single-cta">
+    <div class="cta-icon">
+    <i class="flaticon-brain-1"></i>
+    </div>
+    <div class="content">
+    <h4>Knowledge</h4>
+    <p>Our marketplace is growing every day to meet the evolving needs of the PreK-8-4-4 classroom,Colleges and universities.</p>
+    
+    </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-6 col-lg-4">
+     <div class="single-cta">
+    <div class="cta-icon">
+    <i class="flaticon-lightbulb"></i>
+    </div>
+    <div class="content">
+    <h4>Inspiration</h4>
+    <p>When students get the resources and support they need, they're best equipped to inspire our next generation of learners.</p>
+    <br>
+    </div>
+    </div>
+    </div>
 
-<div class="blog-item-wrapper">
-<div class="blog-item-img">
-<a href="single-post.html">
-<img src="assets/img/blog/img-1.jpg" alt="">
-</a>
-</div>
-<div class="blog-item-text">
-<div class="meta-tags">
-<span class="user float-left"><a href="#"><i class="lni-user"></i> Posted By Admin</a></span>
-<span class="date float-right"><i class="lni-calendar"></i> 24 May, 2020</span>
-</div>
-<h3>
-<a href="single-post.html">Recently Launching Our Iphone X</a>
-</h3>
-<p>
-Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae sunt reiciendis, molestias omnis soluta.
-</p>
-<a href="single-post.html" class="btn btn-common">Read More</a>
-</div>
-</div>
-
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-
-<div class="blog-item-wrapper">
-<div class="blog-item-img">
-<a href="single-post.html">
-<img src="assets/img/blog/img-2.jpg" alt="">
-</a>
-</div>
-<div class="blog-item-text">
-<div class="meta-tags">
-<span class="user float-left"><a href="#"><i class="lni-user"></i> Posted By Admin</a></span>
-<span class="date float-right"><i class="lni-calendar"></i> 24 May, 2020</span>
-</div>
-<h3>
-<a href="single-post.html">How to get more ad views</a>
-</h3>
-<p>
-Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae sunt reiciendis, molestias omnis soluta.
-</p>
-<a href="single-post.html" class="btn btn-common">Read More</a>
-</div>
-</div>
-
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-
-<div class="blog-item-wrapper">
-<div class="blog-item-img">
-<a href="single-post.html">
-<img src="assets/img/blog/img-3.jpg" alt="">
-</a>
-</div>
-<div class="blog-item-text">
-<div class="meta-tags">
-<span class="user float-left"><a href="#"><i class="lni-user"></i> Posted By Admin</a></span>
-<span class="date float-right"><i class="lni-calendar"></i> 24 May, 2020</span>
-</div>
-<h3>
-<a href="single-post.html">Writing a better product description</a>
-</h3>
-<p>
-Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae sunt reiciendis, molestias omnis soluta.
-</p>
-<a href="single-post.html" class="btn btn-common">Read More</a>
-</div>
-</div>
-
-</div>
 </div>
 </div>
 </section>
@@ -1242,7 +1684,9 @@ Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae s
 <div class="widget">
 <div class="footer-logo"><img src="assets/img/logo.png" alt=""></div>
 <div class="textwidget">
-<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt consectetur, adipisci velit.</p>
+<p>
+    Teachersmiles is an online platform where students download original educational materials.
+</p>
 </div>
 <ul class="mt-3 footer-social">
 <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
@@ -1256,16 +1700,12 @@ Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae s
 <div class="widget">
 <h3 class="block-title">Quick Link</h3>
 <ul class="menu">
-<li><a href="#">- About Us</a></li>
-<li><a href="#">- Blog</a></li>
-<li><a href="#">- Events</a></li>
-<li><a href="#">- Shop</a></li>
-<li><a href="#">- FAQ's</a></li>
-<li><a href="#">- About Us</a></li>
-<li><a href="#">- Blog</a></li>
-<li><a href="#">- Events</a></li>
-<li><a href="#">- Shop</a></li>
-<li><a href="#">- FAQ's</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="#">Terms and conditions</a></li>
+<li><a href="#">Privacy policy</a></li>
+<li><a href="about.html">About Us</a></li>
+
 </ul>
 </div>
 </div>
@@ -1274,13 +1714,13 @@ Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae s
 <h3 class="block-title">Contact Info</h3>
 <ul class="contact-footer">
 <li>
-<strong><i class="lni-phone"></i></strong><span>+1 555 444 66647 <br> +1 555 444 66647</span>
+<strong><i class="lni-phone"></i></strong><span><a class="ml-1" href="tel:+254724401763">+254 724 401 763</a></span>
 </li>
 <li>
-<strong><i class="lni-envelope"></i></strong><span><a href="https://demo.graygrids.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5d3e3233293c3e291d303c3431733e3230">[email&#160;protected]</a> <br> <a href="https://demo.graygrids.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e794929797889593a78a868e8bc984888a">[email&#160;protected]</a></span>
+<strong><i class="lni-envelope"></i></strong><span><a href="mailto:info@teachersmiles.com"><span class="__cf_email__ ml-2" >info@teachersmiles.com</span></a></span>
 </li>
 <li>
-<strong><i class="lni-map-marker"></i></strong><span><a href="#">9870 St Vincent Place, Glasgow, DC 45 <br>Fr 45</a></span>
+<strong><i class="lni-map-marker"></i></strong><span><span class="ml-1" href="#"> 153 Williamson Plaza, 09514</span></span>
 </li>
 </ul>
 </div>
@@ -1295,7 +1735,7 @@ Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae s
 <div class="row">
 <div class="col-md-12">
 <div class="site-info text-center">
-<p>Designed and Developed by <a href="https://uideck.com/" rel="nofollow">UIdeck</a></p>
+<p>Copyright © <span class="year">2020</span></a></p>
 </div>
 </div>
 </div>
@@ -1327,6 +1767,7 @@ Reprehenderit nemo quod tempore doloribus ratione distinctio quis quidem vitae s
 <script src="assets/js/form-validator.min.js"></script>
 <script src="assets/js/contact-form-script.min.js"></script>
 <script src="assets/js/summernote.js"></script>
+
 </body>
 
 <!-- Mirrored from demo.graygrids.com/themes/classix/modern/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Sep 2020 02:42:24 GMT -->

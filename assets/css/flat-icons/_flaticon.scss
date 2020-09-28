@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 21/09/2020 03:25
+    Creation date: 27/09/2020 10:52
     */
 
     @font-face {
@@ -37,32 +37,36 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-add:before { content: "\f100"; }
-.flaticon-files-and-folders:before { content: "\f101"; }
-.flaticon-crane:before { content: "\f102"; }
-.flaticon-summary:before { content: "\f103"; }
-.flaticon-money:before { content: "\f104"; }
-.flaticon-project:before { content: "\f105"; }
-.flaticon-brick:before { content: "\f106"; }
-.flaticon-location:before { content: "\f107"; }
-.flaticon-bank:before { content: "\f108"; }
-.flaticon-payment:before { content: "\f109"; }
-.flaticon-arrow:before { content: "\f10a"; }
-.flaticon-mission:before { content: "\f10b"; }
-.flaticon-reader:before { content: "\f10c"; }
-.flaticon-school:before { content: "\f10d"; }
+    .flaticon-book:before { content: "\f100"; }
+.flaticon-book-1:before { content: "\f101"; }
+.flaticon-books:before { content: "\f102"; }
+.flaticon-thought:before { content: "\f103"; }
+.flaticon-brain:before { content: "\f104"; }
+.flaticon-brain-1:before { content: "\f105"; }
+.flaticon-lightbulb:before { content: "\f106"; }
+.flaticon-diamond:before { content: "\f107"; }
+.flaticon-crown:before { content: "\f108"; }
+.flaticon-crown-1:before { content: "\f109"; }
+.flaticon-target:before { content: "\f10a"; }
+.flaticon-arrow:before { content: "\f10b"; }
+.flaticon-mission:before { content: "\f10c"; }
+.flaticon-open-magazine:before { content: "\f10d"; }
+.flaticon-feather:before { content: "\f10e"; }
+.flaticon-feather-1:before { content: "\f10f"; }
     
-    $font-Flaticon-add: "\f100";
-    $font-Flaticon-files-and-folders: "\f101";
-    $font-Flaticon-crane: "\f102";
-    $font-Flaticon-summary: "\f103";
-    $font-Flaticon-money: "\f104";
-    $font-Flaticon-project: "\f105";
-    $font-Flaticon-brick: "\f106";
-    $font-Flaticon-location: "\f107";
-    $font-Flaticon-bank: "\f108";
-    $font-Flaticon-payment: "\f109";
-    $font-Flaticon-arrow: "\f10a";
-    $font-Flaticon-mission: "\f10b";
-    $font-Flaticon-reader: "\f10c";
-    $font-Flaticon-school: "\f10d";
+    $font-Flaticon-book: "\f100";
+    $font-Flaticon-book-1: "\f101";
+    $font-Flaticon-books: "\f102";
+    $font-Flaticon-thought: "\f103";
+    $font-Flaticon-brain: "\f104";
+    $font-Flaticon-brain-1: "\f105";
+    $font-Flaticon-lightbulb: "\f106";
+    $font-Flaticon-diamond: "\f107";
+    $font-Flaticon-crown: "\f108";
+    $font-Flaticon-crown-1: "\f109";
+    $font-Flaticon-target: "\f10a";
+    $font-Flaticon-arrow: "\f10b";
+    $font-Flaticon-mission: "\f10c";
+    $font-Flaticon-open-magazine: "\f10d";
+    $font-Flaticon-feather: "\f10e";
+    $font-Flaticon-feather-1: "\f10f";

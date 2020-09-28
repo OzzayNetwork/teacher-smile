@@ -1002,6 +1002,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   line-height: 30px;
   background: #ffffff;
   padding: 10px 15px;
+  padding-left: 20px;
 }
 
 .search-bar .form-group .form-control, .search-bar .form-group .select select:focus {
@@ -5163,16 +5164,18 @@ footer .menu li a:hover {
 
 .footer-social li a {
   background-color: #03A9F4;
-  border-radius: 30px;
-  color: #fff;
-  height: 32px;
-  line-height: 32px;
-  text-align: center;
-  width: 32px;
-  display: inline-block;
-  -webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+    border-radius: 30px;
+    color: #fff;
+    height: 32px;
+    /* line-height: 32px; */
+    text-align: center;
+    width: 32px;
+    display: flex;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-social li .facebook:hover {
@@ -5192,9 +5195,12 @@ footer .menu li a:hover {
 }
 
 #copyright {
-  background-color: #03A9F4;
-  padding: 20px 0 10px;
-  color: #fff;
+  background-color: #0f2228 !important;
+    padding: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 100;
 }
 
 #copyright p {
@@ -5611,4 +5617,21 @@ footer .menu li a:hover {
 .testimonial-item .content .description
 {
   color: #999999;
+}
+.font-14px{
+  font-size: 14px !important;
+}
+.testimonial .img-thumb img{
+  filter: blur(3px);
+}
+.class-subjects li a{
+  margin-top: 0.3rem;
+  cursor: pointer;
+  color: #007bff !important;
+}
+.class-subjects li{
+  margin-top: 10px;
+}
+.modal{
+  z-index: 2000000000000000000000;
 }

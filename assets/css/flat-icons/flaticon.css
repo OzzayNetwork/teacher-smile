@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 21/09/2020 03:25
+  	Creation date: 27/09/2020 10:52
   	*/
 
 @font-face {
@@ -25,20 +25,22 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  font-style: normal;
+font-style: normal;
 }
 
-.flaticon-add:before { content: "\f100"; }
-.flaticon-files-and-folders:before { content: "\f101"; }
-.flaticon-crane:before { content: "\f102"; }
-.flaticon-summary:before { content: "\f103"; }
-.flaticon-money:before { content: "\f104"; }
-.flaticon-project:before { content: "\f105"; }
-.flaticon-brick:before { content: "\f106"; }
-.flaticon-location:before { content: "\f107"; }
-.flaticon-bank:before { content: "\f108"; }
-.flaticon-payment:before { content: "\f109"; }
-.flaticon-arrow:before { content: "\f10a"; }
-.flaticon-mission:before { content: "\f10b"; }
-.flaticon-reader:before { content: "\f10c"; }
-.flaticon-school:before { content: "\f10d"; }
+.flaticon-book:before { content: "\f100"; }
+.flaticon-book-1:before { content: "\f101"; }
+.flaticon-books:before { content: "\f102"; }
+.flaticon-thought:before { content: "\f103"; }
+.flaticon-brain:before { content: "\f104"; }
+.flaticon-brain-1:before { content: "\f105"; }
+.flaticon-lightbulb:before { content: "\f106"; }
+.flaticon-diamond:before { content: "\f107"; }
+.flaticon-crown:before { content: "\f108"; }
+.flaticon-crown-1:before { content: "\f109"; }
+.flaticon-target:before { content: "\f10a"; }
+.flaticon-arrow:before { content: "\f10b"; }
+.flaticon-mission:before { content: "\f10c"; }
+.flaticon-open-magazine:before { content: "\f10d"; }
+.flaticon-feather:before { content: "\f10e"; }
+.flaticon-feather-1:before { content: "\f10f"; }
