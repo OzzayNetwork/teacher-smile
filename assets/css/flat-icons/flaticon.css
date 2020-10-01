@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 27/09/2020 10:52
+  	Creation date: 01/10/2020 03:15
   	*/
 
 @font-face {
@@ -25,7 +25,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-font-style: normal;
+  font-style: normal;
 }
 
 .flaticon-book:before { content: "\f100"; }
@@ -44,3 +44,25 @@ font-style: normal;
 .flaticon-open-magazine:before { content: "\f10d"; }
 .flaticon-feather:before { content: "\f10e"; }
 .flaticon-feather-1:before { content: "\f10f"; }
+.flaticon-keys:before { content: "\f110"; }
+.flaticon-atom:before { content: "\f111"; }
+.flaticon-dna:before { content: "\f112"; }
+.flaticon-reading-book:before { content: "\f113"; }
+.flaticon-mortarboard:before { content: "\f114"; }
+.flaticon-class:before { content: "\f115"; }
+.flaticon-ancient-scroll:before { content: "\f116"; }
+.flaticon-geography:before { content: "\f117"; }
+.flaticon-history:before { content: "\f118"; }
+.flaticon-agronomy:before { content: "\f119"; }
+.flaticon-agriculture:before { content: "\f11a"; }
+.flaticon-baby-boy:before { content: "\f11b"; }
+.flaticon-abc-block:before { content: "\f11c"; }
+.flaticon-design-tool:before { content: "\f11d"; }
+.flaticon-calculator:before { content: "\f11e"; }
+.flaticon-whiteboard:before { content: "\f11f"; }
+.flaticon-presentation:before { content: "\f120"; }
+.flaticon-test:before { content: "\f121"; }
+.flaticon-biological:before { content: "\f122"; }
+.flaticon-atom-1:before { content: "\f123"; }
+.flaticon-quill:before { content: "\f124"; }
+.flaticon-pen:before { content: "\f125"; }
