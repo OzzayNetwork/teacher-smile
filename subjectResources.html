@@ -138,6 +138,47 @@
         </header>
 
 
+        <!-- resource purchasing modal -->
+        <div class="modal fade" id="paperPlan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Payment request</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="mb-3"><strong>Enter phone number that you would like to pay with for this material</strong></p>
+        
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Mpesa Number</label>
+                    <div class="form-inline">
+                        <input type="email" class="form-control w-auto col-sm-12 col-md-8" id="exampleInputEmail1" aria-describedby="Enter phone Number" placeholder="Enter email">
+                        <button class="btn btn-primary btn-common col-sm-12 col-md-3 ml-1">Pay</button>
+                    </div>
+                    <small  class="form-text text-muted">A payment request for <strong>KES 10</strong> will be sent to the <strong>Mpesa number</strong> you input above</small>
+                  </div>
+        
+                  <!-- //show this when waiting for payment -->
+        
+                  <div class="col-12 d-none">
+                      <div class="loader-container">
+                          <h5 class="text-black"><strong>Waiting for payment</strong></h5>
+                          <p>A payment request was sent to your phone, kindly enter your <strong>Mpesa PIN</strong> to confirm payment.</p>
+                        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                      </div>
+                  </div>
+        
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 <div class="page-header" style="background: url(assets/img/banner1.jpg);">
 <div class="container">
 <div class="row">
@@ -225,7 +266,8 @@ Business Studies <span class="category-counter">(9)</span>
         <div class="row">
         <div class="col-md-12">
         <div class="">
-        <h5 class="mb-3">Biology resources</h5>
+        <h4 class="mb-0 pb-0">Biology resources</h4>
+        <p class="mb-4">Click on a resource to initialize a purchase transaction.</p>
         </div>
         
         <div class="panel-group" id="accordion">
@@ -240,11 +282,11 @@ Business Studies <span class="category-counter">(9)</span>
         <div id="collapseOne" class="panel-collapse collapse show">
         <div class="panel-body">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="#">1. KCSE Biology  PP1 2020</a> </li>
-                <li class="list-group-item"><a href="#">2. KCSE Biology  PP1 2019</a></li>
-                <li class="list-group-item"><a href="#">3. KCSE Biology  PP1 1994</a></li>
-                <li class="list-group-item"><a href="#">>4. KCSE Biology  PP1 1952</a></li>
-                <li class="list-group-item"><a href="#">5. KCSE Biology  PP1 2005</a></li>
+                <li class="list-group-item"><a href="#"  data-toggle="modal" data-target="#paperPlan">1. KCSE Biology  PP1 2020</a> </li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">2. KCSE Biology  PP1 2019</a></li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">3. KCSE Biology  PP1 1994</a></li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">>4. KCSE Biology  PP1 1952</a></li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">5. KCSE Biology  PP1 2005</a></li>
               </ul>
         
         </div>
@@ -261,11 +303,11 @@ Business Studies <span class="category-counter">(9)</span>
         <div id="collapseTwo" class="panel-collapse collapse">
         <div class="panel-body">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="#">1. KCSE Biology  PP1 2020</a> </li>
-                <li class="list-group-item"><a href="#">2. KCSE Biology  PP1 2019</a></li>
-                <li class="list-group-item"><a href="#">3. KCSE Biology  PP1 1994</a></li>
-                <li class="list-group-item"><a href="#">>4. KCSE Biology  PP1 1952</a></li>
-                <li class="list-group-item"><a href="#">5. KCSE Biology  PP1 2005</a></li>
+               <li class="list-group-item"><a href="#"  data-toggle="modal" data-target="#paperPlan">1. KCSE Biology  PP1 2020</a> </li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">2. KCSE Biology  PP1 2019</a></li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">3. KCSE Biology  PP1 1994</a></li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">>4. KCSE Biology  PP1 1952</a></li>
+                <li class="list-group-item"><a href="#" data-toggle="modal" data-target="#paperPlan">5. KCSE Biology  PP1 2005</a></li>
               </ul>
         
         </div>

@@ -191,6 +191,86 @@ Contact
 </header>
 
 <!-- modals -->
+
+<!-- premium modal -->
+<div class="modal fade" id="premiumPlan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Premium Plan Application</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-3"><strong>Enter phone number that you would like to pay with for this package</strong></p>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Mpesa Number</label>
+            <div class="form-inline">
+                <input type="email" class="form-control w-auto col-sm-12 col-md-8" id="exampleInputEmail1" aria-describedby="Enter phone Number" placeholder="Enter email">
+                <button class="btn btn-primary btn-common col-sm-12 col-md-3 ml-1">Pay</button>
+            </div>
+            <small  class="form-text text-muted">A payment request for <strong>KES 1,500</strong> will be sent to the <strong>Mpesa number</strong> you input above</small>
+          </div>
+
+          <!-- //show this when waiting for payment -->
+
+          <div class="col-12 d-none">
+              <div class="loader-container">
+                  <h5 class="text-black"><strong>Waiting for payment</strong></h5>
+                  <p>A payment request was sent to your phone, kindly enter your <strong>Mpesa PIN</strong> to confirm payment.</p>
+                <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+              </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- standard plan modal -->
+<div class="modal fade" id="standardPlan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Standard Plan Application</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="mb-3"><strong>Enter phone number that you would like to pay with for this package</strong></p>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Mpesa Number</label>
+            <div class="form-inline">
+                <input type="email" class="form-control w-auto col-sm-12 col-md-8" id="exampleInputEmail1" aria-describedby="Enter phone Number" placeholder="Enter email">
+                <button class="btn btn-primary btn-common col-sm-12 col-md-3 ml-1">Pay</button>
+            </div>
+            <small  class="form-text text-muted">A payment request for <strong>KES 500</strong> will be sent to the <strong>Mpesa number</strong> you input above</small>
+          </div>
+
+          <!-- //show this when waiting for payment -->
+
+          <div class="col-12 d-none">
+              <div class="loader-container">
+                  <h5 class="text-black"><strong>Waiting for payment</strong></h5>
+                  <p>A payment request was sent to your phone, kindly enter your <strong>Mpesa PIN</strong> to confirm payment.</p>
+                <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+              </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
  <!-- Modal -->
  <!-- form four modal -->
  <div class="modal fade" id="form4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -655,7 +735,7 @@ Contact
 <div class="col-12 text-center">
 <div class="heading">
 <h1 class="section-title">Our Subjects</h1>
-<h4 class="sub-title">Find the best places</h4>
+<h4 class="sub-title">Purchase a resource based on a class</h4>
 </div>
 </div>
 <div class="col-lg-3 col-md-3 col-xs-12">
@@ -1479,76 +1559,76 @@ $1000
 </section>
 
 
-<section id="pricing-table" class="section-padding d-none">
+<section id="pricing-table" class="section-padding ">
 <div class="container">
 <div class="row">
 <div class="col-12 text-center">
 <div class="heading">
 <h1 class="section-title">Pricing Plan</h1>
-<h4 class="sub-title">Discover & connect with top-rated local businesses</h4>
+<h4 class="sub-title">Bellow are our pricing plans</h4>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12">
 <div class="table">
 <div class="icon">
-<i class="lni-gift"></i>
+<i class="flaticon-ancient-scroll"></i>
 </div>
 <div class="pricing-header">
-<p class="price-value">$29</p>
+<p class="price-value">KES 10</p>
 </div>
 <div class="title">
 <h3>Basic</h3>
 </div>
 <ul class="description">
-<li>Free ad posting</li>
-<li>No Featured ads availability</li>
-<li>Access to limited features</li>
-<li>For 30 days</li>
+<li>KES 10 Per resource</li>
+<li>Made available on purchase</li>
+<li>Registration is not mandatory</li>
+<li>Available at any time</li>
 <li>100% Secure!</li>
 </ul>
-<button class="btn btn-common">Purchase</button>
+<a href="#categories" class="btn btn-common ">Purchase</a>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12">
 <div class="table" id="active-tb">
 <div class="icon">
-<i class="lni-leaf"></i>
+<i class="flaticon-diamond"></i>
 </div>
 <div class="pricing-header">
-<p class="price-value">$49</p>
+<p class="price-value">KES 500</p>
 </div>
 <div class="title">
 <h3>Standard</h3>
 </div>
 <ul class="description">
-<li>Free ad posting</li>
-<li>10 Featured ads availability</li>
-<li>Access to unlimited features</li>
+<li>Monthly subscription</li>
+<li>Available for registered members</li>
+<li>Access to unlimited content</li>
 <li>For 30 days</li>
 <li>100% Secure!</li>
 </ul>
-<button class="btn btn-common">Purchase</button>
+<button class="btn btn-common" data-toggle="modal" data-target="#standardPlan">Apply</button>
 </div>
 </div>
 <div class="col-lg-4 col-md-6 col-xs-12">
 <div class="table">
 <div class="icon">
-<i class="lni-layers"></i>
+<i class="flaticon-crown-1"></i>
 </div>
 <div class="pricing-header">
-<p class="price-value">$69</p>
+<p class="price-value">KES 1,500</p>
 </div>
 <div class="title">
 <h3>Premium</h3>
 </div>
 <ul class="description">
-<li>Free ad posting</li>
-<li>100 Featured ads availability</li>
-<li>Access to unlimited features</li>
-<li>For 30 days</li>
+<li>Available for three months</li>
+<li>Available for registered members</li>
+<li>60 Days Unlimited access</li>
+<li>Access to unlimited resources</li>
 <li>100% Secure!</li>
 </ul>
-<button class="btn btn-common">Purchase</button>
+<button class="btn btn-common" data-toggle="modal" data-target="#premiumPlan">Enrol Package</button>
 </div>
 </div>
 </div>
